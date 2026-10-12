@@ -1,0 +1,53 @@
+print ("Bem vindo!")
+print ("Menu:")
+print (" ")
+print ("1 - BATALHAR")
+print ("2 - CADASTRAR")
+print ("3 - VER CADASTROS")
+print ("4 - EDITAR CADASTROS")
+print ("5 - DELETAR CADASTROS")
+print ("6 - SALVAR E SAIR")
+print ("")
+option = input ("Digite o número da opção desejada. ")
+
+
+if option == "1":
+    input("Digite o(s) ID(s) do(s) pokémon da frente: ")
+elif option == "2":
+    print ("O que você deseja cadastrar?")
+    print ("1 - POKÉMON")
+    print ("2 - TREINADOR")
+    print ("3 - ITEM")
+    print ("4 - MÁQUINA TÉCNICA")
+    print ("5 - HABILIDADE \n")
+    input ("    ")
+elif option == "3":
+    print ("4 - MÁQUINA TÉCNICA")
+    print ("O que você deseja ver?")
+    print ("1 - POKÉMON")
+    print ("2 - TREINADOR")
+    print ("3 - ITEM")
+    print ("4 - MÁQUINA TÉCNICA")
+    print ("5 - HABILIDADE\n")
+    input ("    ")
+elif option == "4":
+    print ("O que você deseja editar?")
+    print ("1 - POKÉMON")
+    print ("2 - TREINADOR")
+    print ("3 - ITEM")
+    print ("4 - MÁQUINA TÉCNICA")
+    print ("5 - HABILIDADE\n")
+    input ("    ")
+elif option == "5":
+    print ("O que você deseja deletar?")
+    print ("1 - POKÉMON")
+    print ("2 - TREINADOR")
+    print ("3 - ITEM")
+    print ("4 - MÁQUINA TÉCNICA")
+    print ("5 - HABILIDADE\n")
+    input ("    ")
+elif option == "6":
+    print("Saindo do programa...")
+    exit()
+else:
+    print("Não.")
