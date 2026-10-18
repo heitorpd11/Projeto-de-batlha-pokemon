@@ -1,0 +1,25 @@
+"""Dados dos golpes disponíveis para o simulador."""
+
+MOVE_DATA = {
+    "cauda d'água": ("Água", "physical", 90, 100, None),
+    "hidro bomba": ("Água", "special", 110, 80, None),
+    "confusão": ("Psíquico", "special", 50, 100, None),
+    "amnésia": (None, "status", 0, 100, ("boost", "sp.def", 2)),
+    "mordida": ("Sombrio", "physical", 60, 100, None),
+    "roda de fogo": ("Fogo", "physical", 60, 100, None),
+    "roda da aura": ("Elétrico", "physical", 110, 100, None),
+    "choque do trovão": ("Elétrico", "special", 40, 100, None),
+    "ataque de ramo": ("Grama", "physical", 40, 100, None),
+    "arranhão": ("Normal", "physical", 40, 100, None),
+    "crescimento": (None, "status", 0, 100, ("boost", "both", 1)),
+    "tapa de lama": ("Terra", "special", 20, 100, None),
+    "investida": ("Normal", "physical", 40, 100, None),
+    "pulso d'água": ("Água", "special", 60, 100, None),
+    "hipnose": (None, "status", 0, 60, ("sleep",)),
+    "ácido": ("Veneno", "special", 40, 100, None),
+    "defesa de ferro": (None, "status", 0, 100, ("boost", "def", 2)),
+    "cabeçada": ("Normal", "physical", 70, 100, None),
+    "brasas": ("Fogo", "special", 40, 100, None),
+    "dança da chama": ("Fogo", "physical", 50, 100, None),
+    "proteção": (None, "status", 0, 100, ("protect",)),
+}
