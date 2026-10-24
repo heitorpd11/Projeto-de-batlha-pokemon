@@ -1,1 +1,2 @@
 1. adicionar banco de dados
+2. atualizar dados pokemons
